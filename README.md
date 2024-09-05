@@ -1,26 +1,4 @@
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Management App</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-        }
-        h1, h3 {
-            color: #333;
-        }
-        ul, ol {
-            margin-left: 20px;
-        }
-    </style>
-</head>
-<body>
-
-    <h1><b>Student Management Application</b></h1>
+<h1><b>Student Management Application</b></h1>
 
     <p>
         <h3><b>&#8226; Project Description:</b></h3>
@@ -80,7 +58,4 @@
         <h3><b>&#8226; Known Issues:</b></h3>
         There is currently a bug in the "Edit Student Details" functionality. The issue pertains to updating the student information in the database, which may not work as expected. Debugging and resolution will be required for full functionality.
     </p>
-
-</body>
-</html>
 ```
