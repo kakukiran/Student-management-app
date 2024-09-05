@@ -29,7 +29,8 @@ To set up and run the project, follow these steps:
 3. Strat the development server using:
    ```bash
    npm run dev
-4.The frontend should now open automatically in your default web browser. If not, navigate to the URL displayed in the terminal.
+ 4.The frontend should now open automatically in your default web browser. If not, navigate to the URL displayed in the 
+ terminal.
 
 ## Backend (Spring Boot with H2 Database)
 1.Open the backend folder in IntelliJ IDEA (or any other suitable IDE).
@@ -40,13 +41,14 @@ To set up and run the project, follow these steps:
    ```bash
    StudentManagementBackend/src/main/java/com/StudentManagement
 
-4.Open the file StudentManagementBackendAppApplication.java.
+ 4.Open the file StudentManagementBackendAppApplication.java.
 
-5.Run the Spring Boot application by clicking the Run button (typically a green triangle).
+ 5.Run the Spring Boot application by clicking the Run button (typically a green triangle).
 
-6.If any errors occur, debug and resolve them based on the error messages provided.
+ 6.If any errors occur, debug and resolve them based on the error messages provided.
 
-7.Once both the frontend and backend are running, refresh the frontend page in your browser to start using the Student Management Application.
+ 7.Once both the frontend and backend are running, refresh the frontend page in your browser to start using the Student 
+ Management Application.
 
 ## Known Issues
 -There is a bug in the "Edit Student Details" functionality. The issue is related to updating student information in the database, which may not work as expected. Debugging will be required to resolve this issue.
