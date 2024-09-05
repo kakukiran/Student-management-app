@@ -26,12 +26,9 @@ To set up and run the project, follow these steps:
 2. Run the following command to install the necessary project dependencies:
    ```bash
    npm i
-2. Run the following command to install the necessary project dependencies:
+3. Strat the development server using:
    ```bash
-   npm i
-3.Start the development server using:
-     ```bash
-    npm run dev
+   npm run dev
 4.The frontend should now open automatically in your default web browser. If not, navigate to the URL displayed in the terminal.
 
 ## Backend (Spring Boot with H2 Database)
@@ -39,9 +36,9 @@ To set up and run the project, follow these steps:
 
 2.Ensure all required dependencies in the pom.xml file match your system configuration. Modify the versions if necessary and apply Maven changes.
 
-3.Navigate to the following directory:
-     ```bash
-    StudentManagementBackend/src/main/java/com/StudentManagement
+3. Navigate to the following directory:
+   ```bash
+   StudentManagementBackend/src/main/java/com/StudentManagement
 
 4.Open the file StudentManagementBackendAppApplication.java.
 
