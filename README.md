@@ -1,47 +1,86 @@
-<h1><b>Student Management App</b></h1>
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        h1, h3 {
+            color: #333;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
 
-<p>
-  
-  <h3><b> &#8226; Description:</b></h3>
-  This project is a simple student management system built using SpringBoot as the backend framework for handling data and logic, React as the frontend library for creating the user interface, and H2 as an in-memory database for storing student information. The application provides basic functionalities like adding, editing, deleting, and viewing student details, demonstrating fundamental concepts of web development and database interaction.
-  <br>
-  
-  <h3><b> &#8226; Pre-requisites for projct:</b></h3>
-  <ol>
-    <li>Firstly you need to have Java, Maven, Node installed in your system</li>
-    <li>Configure IDE's. IntelliJ is preferable for running the Backend Application and VS Code for executing Frontend service. But VS Code can be used for both</li>
-    <li>An unzipping tool like WinRAR or 7zip  should be installed</li>
-  </ol>
+    <h1><b>Student Management Application</b></h1>
 
-  <h3><b> &#8226; How to Execute ?</b></h3>
-  <ol>
-    <li>Ensure the Pre-requisites have met</li>
-    <li>Download the Project Zip file or clone the repo</li>
-    <li>Extract the zip file using WinRar</li>
-    <li>Open the Backend with IntelliJ and Frontned with VS Code or any suitable IDE
-      <ul>
-        <li>For Frontend: </li>
+    <p>
+        <h3><b>&#8226; Project Description:</b></h3>
+        This project is a simple and beginner-friendly Student Management Application, developed using Spring Boot for the backend, React (with Vite) for the frontend, and an H2 in-memory database. 
+        While the project is functional, it is designed as an introductory exercise and might contain some minor bugs. It offers hands-on experience in working with modern web development frameworks, albeit with some limitations.
+    </p>
+    
+    <p>
+        <h3><b>&#8226; Pre-requisites:</b></h3>
+        Before running this project, ensure that your system meets the following requirements:
         <ol>
-          <li>Enter <b>npm i</b> command to install all the project related packages </li>
-          <li>Enter <b>npm run dev</b> command to start the Frontend part </li>
-          <li>Navigate to the URL displayed in the IDE's Command Prompt. Frontend is now opened in a Browser tab</li>
+            <li>Java, Maven, and Node.js should be installed on your system.</li>
+            <li>Integrated Development Environments (IDEs) must be configured. 
+                <ul>
+                    <li>For the backend, IntelliJ IDEA is recommended. However, any IDE supporting Spring Boot can be used.</li>
+                    <li>For the frontend, Visual Studio Code (VS Code) is preferred, although it can also be used for the backend.</li>
+                </ul>
+            </li>
+            <li>Install an unzipping tool like WinRAR or 7-Zip to extract the project files.</li>
         </ol>
-      </ul>
-      <ul>
-        <li>For Backend: </li>
+    </p>
+    
+    <p>
+        <h3><b>&#8226; Steps to Execute the Project:</b></h3>
+        Follow these instructions to set up and run the project:
         <ol>
-          <li>Open <b>pom.xml</b> file and ensure all the dependencies, versions match with your installed Softwares. If not modify and apply Maven changes.</li>
-          <li>Head to <b>StudentManagementBackend\src\main\java\com\StudentManagement</b> directory and open <b>StudentManagementBackendAppApplication</b> file.</li>
-          <li>Click on <b>Run</b> button(indicated in a green traingular arrow)</li>
-          <li>If any errors found, analyze them and solve accordingly.</li>
-          <li>Now the Backend is started</li>
+            <li>Ensure that all pre-requisites are met.</li>
+            <li>Download the project ZIP file or clone the repository from the source control.</li>
+            <li>Extract the ZIP file using a tool like WinRAR or 7-Zip.</li>
+            <li>Open the extracted project files:
+                <ul>
+                    <li><b>Frontend (React with Vite):</b>
+                        <ol>
+                            <li>Open the frontend folder in your IDE (preferably VS Code).</li>
+                            <li>Run the command <b>npm i</b> in the terminal to install all necessary project dependencies.</li>
+                            <li>Once the installation is complete, run <b>npm run dev</b> to start the frontend development server.</li>
+                            <li>The frontend application should now open automatically in your default web browser. If not, navigate to the URL displayed in the terminal output.</li>
+                        </ol>
+                    </li>
+                    <li><b>Backend (Spring Boot with H2 Database):</b>
+                        <ol>
+                            <li>Open the backend folder in IntelliJ IDEA or any other suitable IDE.</li>
+                            <li>Ensure that all required dependencies in the <b>pom.xml</b> file match your system configuration. Modify versions if necessary and apply Maven changes.</li>
+                            <li>Navigate to the directory: <b>StudentManagementBackend/src/main/java/com/StudentManagement</b>.</li>
+                            <li>Open the file <b>StudentManagementBackendAppApplication.java</b>.</li>
+                            <li>Click the <b>Run</b> button (typically represented by a green triangle) to start the backend server.</li>
+                            <li>If any errors occur during this process, debug and resolve them based on the error messages provided.</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li>Once both the frontend and backend are running, refresh the browser page to load the frontend and start using the Student Management Application.</li>
         </ol>
-      </ul>
-    </li>
-    <li>Refresh the Frontend page in browser and use the project</li>
-  </ol>
+    </p>
 
-  <h3><b> &#8226; Issues in Project:</b></h3>
-  The edit student details has some bugs page has a bug related to updation of details in database.
-  
-</p>
+    <p>
+        <h3><b>&#8226; Known Issues:</b></h3>
+        There is currently a bug in the "Edit Student Details" functionality. The issue pertains to updating the student information in the database, which may not work as expected. Debugging and resolution will be required for full functionality.
+    </p>
+
+</body>
+</html>
+```
