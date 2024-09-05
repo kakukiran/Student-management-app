@@ -26,28 +26,26 @@ To set up and run the project, follow these steps:
 2. Run the following command to install the necessary project dependencies:
    ```bash
    npm i
-Start the development server using:
-bash
-Copy code
-npm run dev
-The frontend should now open automatically in your default web browser. If not, navigate to the URL displayed in the terminal.
-Backend (Spring Boot with H2 Database)
-Open the backend folder in IntelliJ IDEA (or any other suitable IDE).
+3.Start the development server using:
+     ```bash
+    npm run dev
+4.The frontend should now open automatically in your default web browser. If not, navigate to the URL displayed in the terminal.
 
-Ensure all required dependencies in the pom.xml file match your system configuration. Modify the versions if necessary and apply Maven changes.
+## Backend (Spring Boot with H2 Database)
+1.Open the backend folder in IntelliJ IDEA (or any other suitable IDE).
 
-Navigate to the following directory:
+2.Ensure all required dependencies in the pom.xml file match your system configuration. Modify the versions if necessary and apply Maven changes.
 
-css
-Copy code
-StudentManagementBackend/src/main/java/com/StudentManagement
-Open the file StudentManagementBackendAppApplication.java.
+3.Navigate to the following directory:
+     ```bash
+    StudentManagementBackend/src/main/java/com/StudentManagement
+4.Open the file StudentManagementBackendAppApplication.java.
 
-Run the Spring Boot application by clicking the Run button (typically a green triangle).
+5.Run the Spring Boot application by clicking the Run button (typically a green triangle).
 
-If any errors occur, debug and resolve them based on the error messages provided.
+6.If any errors occur, debug and resolve them based on the error messages provided.
 
-Once both the frontend and backend are running, refresh the frontend page in your browser to start using the Student Management Application.
+7.Once both the frontend and backend are running, refresh the frontend page in your browser to start using the Student Management Application.
 
-Known Issues
-There is a bug in the "Edit Student Details" functionality. The issue is related to updating student information in the database, which may not work as expected. Debugging will be required to resolve this issue.
+## Known Issues
+-There is a bug in the "Edit Student Details" functionality. The issue is related to updating student information in the database, which may not work as expected. Debugging will be required to resolve this issue.
