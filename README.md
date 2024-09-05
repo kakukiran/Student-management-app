@@ -26,6 +26,9 @@ To set up and run the project, follow these steps:
 2. Run the following command to install the necessary project dependencies:
    ```bash
    npm i
+2. Run the following command to install the necessary project dependencies:
+   ```bash
+   npm i
 3.Start the development server using:
      ```bash
     npm run dev
