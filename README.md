@@ -2,7 +2,7 @@
 
 ## Project Description
 This project is a simple and beginner-friendly **Student Management Application**, developed using **Spring Boot** for the backend, **React (with Vite)** for the frontend, and an **H2 in-memory database**.  
-It is designed as an introductory project and might contain some minor bugs. It offers hands-on experience in working with modern web development frameworks, though it has certain limitations.
+It offers hands-on experience in working with modern web development frameworks, though it has certain limitations.
 
 ## Pre-requisites
 Before running this project, ensure that your system meets the following requirements:
