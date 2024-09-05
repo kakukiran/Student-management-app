@@ -39,6 +39,7 @@ To set up and run the project, follow these steps:
 3.Navigate to the following directory:
      ```bash
     StudentManagementBackend/src/main/java/com/StudentManagement
+
 4.Open the file StudentManagementBackendAppApplication.java.
 
 5.Run the Spring Boot application by clicking the Run button (typically a green triangle).
